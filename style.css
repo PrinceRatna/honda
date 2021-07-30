@@ -30,7 +30,6 @@ header{
  .fetured-div{
      
      max-width:1171px; 
-    max-height:579px; 
  }
 .best-bike-color{
     color:#E76F51;
@@ -55,6 +54,8 @@ header{
   .happy-client-container{
       max-width:1171px;
   }
+ 
+  
   .client-image{
       height: 149px;
       width: 149px;
@@ -76,15 +77,51 @@ header{
     max-width:1171px;
 }
 .question-section-image{
-    max-width:432px ;
-    max-height: 423px;
+    max-width:432px;
+    max-height:423px;
 }
 .question-image{
     width: 100%;
     height: 100%;
 }
 .accordion{
-    max-width: 704px;
+    max-width:500px;
 }
-  
-  
+/*--------- form and progress -------- */
+
+.form-progress-width{
+    max-width:1171px;
+}
+/* --------------responsive------------- */
+@media only screen and (max-width:767px){
+     
+    .header-bike-image{
+    
+        width:321px;
+        height:260px;
+     }
+     .title{
+        font-size:36px;
+     }     
+    .card-width{
+        max-width:322px ;
+    }
+    .question-section-image{
+        max-width:270px;
+        max-height: 252px;
+    }
+    .accordion{
+        max-width: 313px;
+    }
+    
+   
+  }
+  @media only screen and (min-width:768px){
+    .form-width{
+        width:50%;
+    }
+    .progress-width{
+        width:40%;
+
+  } 
+}
